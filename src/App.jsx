@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './view/Home/Home';
 import './Global.css'
 import Tech from './view/Tech/Tech';
+import Projects from './view/Projects/Projects'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <Tech />
+      <Projects />
       <ButtonUp />
 
     </div>

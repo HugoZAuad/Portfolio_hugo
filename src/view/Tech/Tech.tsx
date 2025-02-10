@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Tech.module.css";
 import Carrosel from "../../components/Carrosel/Carrosel";
 
@@ -53,7 +53,15 @@ const Technologies: React.FC = () => {
     },
   ];
 
-  const [hoveredTech, setHoveredTech] = useState<string | null>(null);
+  const [currentTechIndex, setCurrentTechIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTechIndex((prevIndex) => (prevIndex + 1) % techs.length);
+    }, 5000); 
+
+    return () => clearInterval(interval);
+  }, [techs.length]);
 
   return (
     <div className={styles.container}>
@@ -67,19 +75,15 @@ const Technologies: React.FC = () => {
             <li
               key={index}
               className={styles.techItem}
-              onMouseEnter={() => setHoveredTech(tech.name)}
-              onMouseLeave={() => setHoveredTech(null)}
             >
               {tech.name}
             </li>
           ))}
         </ul>
       </div>
-      {hoveredTech && (
-        <div className={styles.techDescription}>
-          {techs.find((tech) => tech.name === hoveredTech)?.description}
-        </div>
-      )}
+      <div className={styles.techDescription}>
+        {techs[currentTechIndex].description}
+      </div>
     </div>
   );
 };

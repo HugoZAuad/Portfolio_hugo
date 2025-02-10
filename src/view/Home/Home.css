@@ -15,13 +15,13 @@
 
 .foto-perfil {
   position: absolute;
-  left: 1100px;
+  left: 1250px;
   top: 50px;
   width: 449px;
   height: 556px;
   border-radius: 10%;
   margin-left: 2rem; 
-  transform: scaleX(-1) rotate(-10deg);  
+  transform: scaleX(-1) rotate(-5deg);  
 }
 
 .welcome-text {

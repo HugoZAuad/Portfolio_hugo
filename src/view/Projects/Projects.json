@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "JS Game",
+      "description": "Jogo para descobrir o numero aleatorio.",
+      "image": "/public/assets/Imgs/P1.png",
+      "link": "https://github.com/HugoZAuad/JSGAME"
+    },
+    {
+      "id": 2,
+      "title": "FAQ - Front-END Mentor",
+      "description": "Este é um projeto de FAQ desenvolvido como um desafio do Frontend Mentor.",
+      "image": "/public/assets/Imgs/P2.png",
+      "link": "https://github.com/HugoZAuad/Projeto_FAQ"
+    },
+    {
+      "id": 3,
+      "title": "Pesquisador de Paises",
+      "description": "Este projeto é um aplicativo simples que permite aos usuários pesquisar informações sobre países usando a API REST Countries.",
+      "image": "/public/assets/Imgs/P3.png",
+      "link": "https://github.com/HugoZAuad/Pesquisador_Paises"
+    },
+    {
+        "id": 4,
+        "title": "Controle de Produtos",
+        "description": "Este projeto é um gerenciador de produtos simples, desenvolvido em HTML, CSS e JavaScript. O objetivo é permitir que os usuários adicionem, visualizem e removam produtos de uma lista.",
+        "image": "/public/assets/Imgs/P4.png",
+        "link": "https://github.com/HugoZAuad/Controle_produtos"
+    },
+    {
+        "id": 5,
+        "title": "Contador Regressivo",
+        "description": "Este projeto é uma aplicação web simples que exibe uma contagem regressiva até uma data específica.",
+        "image": "/public/assets/Imgs/P5.png",
+        "link": "https://github.com/HugoZAuad/Desafio-Contdown"
+    },
+    {
+        "id": 6,
+        "title": "JS da Lampada",
+        "description": "Este projeto é uma simples aplicação web que simula o funcionamento de uma lâmpada. A lâmpada pode ser ligada, desligada e quebrada através de botões e cliques na imagem.",
+        "image": "/public/assets/Imgs/P6.png",
+        "link": "https://github.com/HugoZAuad/Desafio-Lampada"
+    },
+    {
+        "id": 7,
+        "title": "InstaBytes",
+        "description": "Este projeto é uma simples de um clone do Instagram, um CRUD, no qual foi feito um trabalho de utilização do back-END junto do front-END.",
+        "image": "/public/assets/Imgs/P7.png",
+        "link": "https://github.com/HugoZAuad/Projeto-Backend-Imers-o"
+    },
+    {
+        "id": 8,
+        "title": "LandPage DNC",
+        "description": "Este projeto é uma página da web para promover um curso gratuito de Introdução à Tecnologia da DNC School",
+        "image": "/public/assets/Imgs/P8.png",
+        "link": "https://github.com/HugoZAuad/Landpage_DNC"
+    }
+  ]
