@@ -67,8 +67,8 @@ Para instalar e executar o projeto localmente, siga os passos abaixo:
 4. npm run dev
 5. Acesse o portfólio: Abra o navegador e vá para http://localhost:3000.
 
-Contribuições
+## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou enviar um pull request.
 
-Contato
+## Contato
 Para mais informações, você pode entrar em contato através do meu perfil no GitHub: HugoZAuad.
