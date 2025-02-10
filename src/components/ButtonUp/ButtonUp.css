@@ -1,0 +1,21 @@
+.button-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-size: cover;
+  background-image: url(../../assets/Imgs/up-arrow.svg);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s;
+  width: 45px;
+  height: 45px;
+}
+
+.button-up:hover {
+  box-shadow: 0px 0px 15px var(--color-light-blue-3);
+  background-repeat: no-repeat;
+  animation: bouce 0.5s;
+}

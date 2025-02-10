@@ -1,0 +1,24 @@
+import React from 'react';
+import './Navbar.css';
+import logo from '../../../public/assets/Imgs/logoP.png';
+
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <div className="navbar-logo">
+        <a href="https://github.com/HugoZAuad" target="_blank" rel="noopener noreferrer">
+          <img src={logo} alt="Logo" className="logo-image" />
+        </a>
+      </div>
+      <ul className="navbar-links">
+        <li><a href="/about">Sobre</a></li>
+        <li><a href="/Tech">Tecnologias</a></li>
+        <li><a href="/projects">Projetos</a></li>
+        <li><a href="/services">Serviços</a></li>
+        <li><a href="/contact">Contato</a></li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
