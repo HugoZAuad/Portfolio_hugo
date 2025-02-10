@@ -8,21 +8,23 @@ Este repositório contém um portfólio pessoal desenvolvido utilizando **React*
 
 A estrutura do projeto é organizada da seguinte forma:
 
-```Portfolio_hugo/ ├── public/ # Arquivos públicos e estáticos```
-                │ ├── assets/ # Imagens e outros recursos estáticos
-                │ └── index.html # Arquivo HTML principal
-                ├── src/ # Código-fonte do aplicativo
-                │ ├── components/ # Componentes reutilizáveis do React
-                │ ├── pages/ # Páginas do portfólio
-                │ ├── styles/ # Estilos globais e específicos
-                │ ├── App.jsx # Componente principal do aplicativo
-                │ └── main.jsx # Ponto de entrada do Reac
-                ├── .gitignore # Arquivo que especifica arquivos a serem ignorados pelo Git
-                ├── README.md # Este arquivo, que fornece informações sobre o projeto
-                ├── eslint.config.js # Configurações do ESLint para garantir a qualidade do código
-                ├── package-lock.json # Registra as versões exatas das dependências instaladas
-                ├── package.json # Informações sobre o projeto, incluindo dependências e scripts
-                └── vite.config.js # Configurações do Vite, ferramenta de construção para front-end```
+## Portfolio_hugo
+- **public/**: Arquivos públicos e estáticos
+  - **assets/**: Imagens e outros recursos estáticos
+  - **index.html**: Arquivo HTML principal
+- **src/**: Código-fonte do aplicativo
+  - **components/**: Componentes reutilizáveis do React
+  - **pages/**: Páginas do portfólio
+  - **styles/**: Estilos globais e específicos
+  - **App.jsx**: Componente principal do aplicativo
+  - **main.jsx**: Ponto de entrada do React
+- **.gitignore**: Arquivo que especifica arquivos a serem ignorados pelo Git
+- **README.md**: Este arquivo, que fornece informações sobre o projeto
+- **eslint.config.js**: Configurações do ESLint para garantir a qualidade do código
+- **package-lock.json**: Registra as versões exatas das dependências instaladas
+- **package.json**: Informações sobre o projeto, incluindo dependências e scripts
+- **vite.config.js**: Configurações do Vite, ferramenta de construção para front-end
+
 
 ### Descrição dos Diretórios e Arquivos
 
