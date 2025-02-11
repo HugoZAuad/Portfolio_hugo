@@ -32,7 +32,7 @@ body {
   background: linear-gradient(45deg, var(--color-dark-blue-1), var(--color-dark-blue-2), var(--color-dark-blue-3), var(--color-dark-blue-4), var(--color-dark-blue-1));
   background-size: 800% 800%;
   animation: gradient 10s ease infinite;
-  z-index: 0;
+  z-index: 0; 
 }
 
 @keyframes gradient {

@@ -3,7 +3,8 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './view/Home/Home';
 import './Global.css'
 import Tech from './view/Tech/Tech';
-import Projects from './view/Projects/Projects'
+import Projects from './view/Projects/Projects';
+import Servicos from './view/Servics/Servics'
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <Home />
       <Tech />
       <Projects />
+      <Servicos />
       <ButtonUp />
-
     </div>
   );
 }

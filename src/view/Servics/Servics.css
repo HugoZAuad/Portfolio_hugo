@@ -1,0 +1,51 @@
+.servicos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 0 60px 0;
+}
+
+.servico-card {
+  background: linear-gradient(
+    9deg,
+    var(--color-dark-blue-1),
+    var(--color-dark-blue-2),
+    var(--color-dark-blue-3),
+    var(--color-dark-blue-4),
+    var(--color-dark-blue-1)
+  );
+  background-size: 800% 800%;
+  animation: gradient 5s ease infinite;
+  z-index: 0;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.servico-card:hover {
+    box-shadow: var(--color-light-blue-4) 5px 5px, var(--color-light-blue-3) 10px 10px, var(--color-light-blue-2) 15px 15px, var(--color-light-blue-1) 20px 20px, var(--color-dark-blue-1) 25px 25px;
+}
+
+.servico-imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.servico-titulo {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.servico-descricao {
+  font-size: 1em;
+  color: var(--color-foreground);
+  font-weight: bolder;
+}

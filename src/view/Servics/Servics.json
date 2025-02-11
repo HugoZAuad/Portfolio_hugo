@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "titulo": "Desenvolvimento Front-End",
+      "descricao": "Criação de interfaces responsivas e dinâmicas utilizando React. Clique para saber mais!",
+      "imagem": "../../../public/assets/Imgs/frontend.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Consultoria em UX/UI",
+      "descricao": "Melhoria da experiência do usuário e design de interfaces. Clique para saber mais!",
+      "imagem": "../../../public/assets/Imgs/ui-ux.png"
+    }
+  ]
