@@ -1,14 +1,46 @@
 [
-    {
-      "id": 1,
-      "titulo": "Desenvolvimento Front-End",
-      "descricao": "Criação de interfaces responsivas e dinâmicas utilizando React. Clique para saber mais!",
-      "imagem": "../../../public/assets/Imgs/frontend.png"
-    },
-    {
-      "id": 2,
-      "titulo": "Consultoria em UX/UI",
-      "descricao": "Melhoria da experiência do usuário e design de interfaces. Clique para saber mais!",
-      "imagem": "../../../public/assets/Imgs/ui-ux.png"
-    }
-  ]
+  {
+    "id": 1,
+    "titulo": "Desenvolvimento Front-End",
+    "descricao": "Criação de interfaces responsivas e dinâmicas utilizando HTML, CSS e JavaScript, com foco em React.JS.",
+    "imagem": "../../../public/assets/Imgs/frontend.png"
+  },
+  {
+    "id": 2,
+    "titulo": "Versionamento de Código",
+    "descricao": "Utilização de Git para controle de versão e colaboração em projetos de desenvolvimento web.",
+    "imagem": "../../../public/assets/Imgs/Versionamento.png"
+  },
+  {
+    "id": 3,
+    "titulo": "Lógica de Programação",
+    "descricao": "Fundamentos de lógica de programação aplicados em JavaScript e outras linguagens.",
+    "imagem": "../../../public/assets/Imgs/logica.png"
+  },
+  {
+    "id": 4,
+    "titulo": "Consultoria em UX/UI",
+    "descricao": "Melhoria da experiência do usuário e design de interfaces, aplicando princípios de design de interface.",
+    "imagem": "../../../public/assets/Imgs/ui-ux.png"
+  },
+  {
+    "id": 5,
+    "titulo": "Análise de Dados",
+    "descricao": "Utilização de Power BI e Excel Avançado para análise e visualização de dados, criando dashboards e relatórios técnicos.",
+    "imagem": "../../../public/assets/Imgs/data.png"
+  },
+
+  {
+    "id": 6,
+    "titulo": "Gestão de Projetos Ágeis",
+    "descricao": "Aplicação de metodologias ágeis como Scrum para gestão de projetos de desenvolvimento de software.",
+    "imagem": "../../../public/assets/Imgs/agile.png"
+  },
+
+  {
+    "id": 7,
+    "titulo": "Comunicação e Trabalho em Equipe",
+    "descricao": "Habilidades interpessoais para colaboração eficaz em equipes de desenvolvimento e comunicação com stakeholders.",
+    "imagem": "../../../public/assets/Imgs/comunicacao.png"
+  }
+]

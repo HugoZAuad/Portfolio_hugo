@@ -68,7 +68,7 @@ const Technologies: React.FC = () => {
       <div>
         <Carrosel />
       </div>
-      <h2>Tecnologias que trabalho</h2>
+      <h1>Tecnologias que trabalho</h1>
       <div className={styles.techWrapper}>
         <ul className={styles.techList}>
           {techs.map((tech, index) => (

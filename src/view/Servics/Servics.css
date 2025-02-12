@@ -1,10 +1,15 @@
-.servicos-container {
+.name{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
+}
+
+.servicos-container {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: flex-start;
   padding: 40px 0 60px 0;
 }
 
@@ -24,9 +29,11 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 15px;
   padding: 20px;
-  width: 300px;
+  width: calc(30% - 30px);
+  box-sizing: border-box;
   transition: box-shadow 0.3s ease;
   cursor: pointer;
+  
 }
 
 .servico-card:hover {

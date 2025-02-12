@@ -5,7 +5,7 @@ import "./Projects.css";
 const CardFlip: React.FC = () => {
   return (
     <div className="projects-section">
-      <h2>PROJETOS</h2>
+      <h1>PROJETOS</h1>
       <div className="card-container">
         {data.map((item) => (
           <Card key={item.id} item={item} />
