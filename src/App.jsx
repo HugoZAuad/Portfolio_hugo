@@ -5,6 +5,7 @@ import './Global.css'
 import Tech from './view/Tech/Tech';
 import Projects from './view/Projects/Projects';
 import Servicos from './view/Servics/Servics'
+import Contato from './view/Contato/Contato'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Tech />
       <Projects />
       <Servicos />
+      <Contato />
       <ButtonUp />
     </div>
   );

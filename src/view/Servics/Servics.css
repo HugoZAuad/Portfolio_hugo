@@ -1,4 +1,4 @@
-.name{
+.name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,16 +33,20 @@
   box-sizing: border-box;
   transition: box-shadow 0.3s ease;
   cursor: pointer;
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .servico-card:hover {
-    box-shadow: var(--color-light-blue-4) 5px 5px, var(--color-light-blue-3) 10px 10px, var(--color-light-blue-2) 15px 15px, var(--color-light-blue-1) 20px 20px, var(--color-dark-blue-1) 25px 25px;
+  box-shadow: var(--color-light-blue-4) 5px 5px,
+    var(--color-light-blue-3) 10px 10px, var(--color-light-blue-2) 15px 15px,
+    var(--color-light-blue-1) 20px 20px, var(--color-dark-blue-1) 25px 25px;
 }
 
 .servico-imagem {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
   border-radius: 8px;
 }
 
