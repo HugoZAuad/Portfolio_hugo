@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contato.scss";
-
+import qrcode from '../../../public/assets/Imgs/QR_code.svg'
 interface ContactCardProps {
   name: string;
   email: string;
@@ -20,7 +20,9 @@ const ContactCard: React.FC<ContactCardProps> = ({ name, email, message }) => {
       <div className="info-group">
         <strong>Linktree:</strong> <span>{message}</span>
       </div>
-
+      <div>
+        <img className="qrcode" src={qrcode} alt="Qr code" />
+      </div>
     </div>
   );
 };

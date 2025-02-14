@@ -9,17 +9,24 @@
   );
   background-size: 800% 800%;
   animation: gradient 3s ease infinite;
-  z-index: 0; 
+  z-index: 0;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 20px;
   max-width: 800px;
   margin: 20px auto;
   color: white;
+  display: flex;
+  flex-direction: row;
 
   h2 {
     text-align: center;
     margin-bottom: 20px;
+  }
+
+  .qrcode {
+    width: 400px;
+    height: 400px;
   }
 
   .info-group {

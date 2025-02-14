@@ -25,21 +25,14 @@
   },
   {
     "id": 5,
-    "titulo": "Análise de Dados",
-    "descricao": "Utilização de Power BI e Excel Avançado para análise e visualização de dados, criando dashboards e relatórios técnicos.",
-    "imagem": "../../../public/assets/Imgs/data.png"
-  },
-
-  {
-    "id": 6,
     "titulo": "Gestão de Projetos Ágeis",
     "descricao": "Aplicação de metodologias ágeis como Scrum para gestão de projetos de desenvolvimento de software.",
     "imagem": "../../../public/assets/Imgs/agile.png"
   },
 
   {
-    "id": 7,
-    "titulo": "Comunicação e Trabalho em Equipe",
+    "id": 6,
+    "titulo": "Trabalho em Equipe",
     "descricao": "Habilidades interpessoais para colaboração eficaz em equipes de desenvolvimento e comunicação com stakeholders.",
     "imagem": "../../../public/assets/Imgs/comunicacao.png"
   }
