@@ -38,6 +38,10 @@
     bottom: 80px;
   }
 
+  p:hover {
+    color: var(--color-light-blue-3);
+  }
+
   .card-front,
   .card-back {
     width: 100%;

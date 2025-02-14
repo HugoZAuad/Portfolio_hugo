@@ -44,7 +44,7 @@ const Card: React.FC<{ item: { title: string; description: string; image: string
       <div className="card-front">
         <img src={item.image} alt={item.title} />
         <h3>{item.title}</h3>
-        <p>Clique para ver os detalhes</p>
+        <p>Clique aqui para ver os detalhes</p>
       </div>
       <div className="card-back">
         <p>{item.description}</p>
