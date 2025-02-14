@@ -1,28 +1,33 @@
 .contact-card {
-    background: linear-gradient(
-      9deg,
-      #1e3c72,
-      #2a5298
-    );
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-    color: white;
-    
-  }
-  
-  .contact-card h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .info-group {
-    margin-bottom: 15px;
-  }
-  
-  .info-group strong {
-    display: inline-block;
-    margin-right: 5px;
-  }
+  background: linear-gradient(
+    5deg,
+    var(--color-dark-blue-1),
+    var(--color-dark-blue-2),
+    var(--color-dark-blue-3),
+    var(--color-dark-blue-4),
+    var(--color-dark-blue-1)
+  );
+  background-size: 800% 800%;
+  animation: gradient 3s ease infinite;
+  z-index: 0; 
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  color: white;
+}
+
+.contact-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-group {
+  margin-bottom: 15px;
+}
+
+.info-group strong {
+  display: inline-block;
+  margin-right: 5px;
+}
