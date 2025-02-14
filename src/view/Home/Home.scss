@@ -1,0 +1,52 @@
+.home-main {
+  position: relative;
+  overflow: hidden;  
+  padding-bottom: 300px;
+  box-shadow: var(--color-light-blue-4) 0px 0px 1px;
+
+  .intro {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 6rem 0 2rem 6rem;
+    max-width: 800px;
+
+    .welcome-text {
+      font-size: 3rem;
+      margin: 0rem 0 1rem 0;
+      color: var(--color-foreground);
+    }
+
+    .pulse-animation {
+      color: var(--color-light-blue-4);
+      font-size: 3rem;
+      animation: pulse 2s infinite;
+    }
+  }
+
+  .foto-perfil {
+    position: absolute;
+    left: 1250px;
+    top: 50px;
+    width: 449px;
+    height: 556px;
+    border-radius: 10%;
+    margin-left: 2rem; 
+    transform: scaleX(-1) rotate(-5deg);
+  }
+
+  p {
+    color: var(--color-foreground);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.99);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

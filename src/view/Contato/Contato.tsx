@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contato.css";
+import "./Contato.scss";
 
 interface ContactCardProps {
   name: string;

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import styles from "./Tech.module.css";
+import styles from "./Tech.module.scss";
 import Carrosel from "../../components/Carrosel/Carrosel";
 
 const Technologies: React.FC = () => {

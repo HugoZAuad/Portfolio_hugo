@@ -35,12 +35,14 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
-}
 
-.servico-card:hover {
-  box-shadow: var(--color-light-blue-4) 5px 5px,
-    var(--color-light-blue-3) 10px 10px, var(--color-light-blue-2) 15px 15px,
-    var(--color-light-blue-1) 20px 20px, var(--color-dark-blue-1) 25px 25px;
+  &:hover {
+    box-shadow: var(--color-light-blue-4) 5px 5px,
+                var(--color-light-blue-3) 10px 10px,
+                var(--color-light-blue-2) 15px 15px,
+                var(--color-light-blue-1) 20px 20px,
+                var(--color-dark-blue-1) 25px 25px;
+  }
 }
 
 .servico-imagem {

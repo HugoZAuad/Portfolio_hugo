@@ -13,6 +13,9 @@
 
 * {
   box-sizing: border-box;
+
+  scrollbar-width: thin; 
+  scrollbar-color: var(--color-light-blue-3) var(--color-dark-blue-4);
 }
 
 body {
@@ -49,22 +52,17 @@ body {
 
 ::-webkit-scrollbar {
   width: 12px;
-}
 
-::-webkit-scrollbar-track {
-  background: var(--color-dark-blue-1);
-}
+  &-track {
+    background: var(--color-dark-blue-1);
+  }
 
-::-webkit-scrollbar-thumb {
-  background: var(--color-light-blue-4);
-  border-radius: 30px;
-}
+  &-thumb {
+    background: var(--color-light-blue-4);
+    border-radius: 30px;
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-light-blue-2);
-}
-
-* {
-  scrollbar-width: thin; 
-  scrollbar-color: var(--color-light-blue-3) var(--color-dark-blue-4);
+    &:hover {
+      background: var(--color-light-blue-2);
+    }
+  }
 }

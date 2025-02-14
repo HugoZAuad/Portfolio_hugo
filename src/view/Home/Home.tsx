@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import "./Home.css";
+import "./Home.scss";
 import Foto from "../../../public/assets/Imgs/perfil.png";
 
 const Home: React.FC = () => {

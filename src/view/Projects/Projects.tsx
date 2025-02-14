@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "./Projects.json";
-import "./Projects.css";
+import "./Projects.scss";
 
 const CardFlip: React.FC = () => {
   return (

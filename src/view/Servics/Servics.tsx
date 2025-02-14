@@ -1,5 +1,5 @@
 import React from "react";
-import "./Servics.css";
+import "./Servics.scss";
 import servicosData from "./servics.json";
 
 interface Servico {

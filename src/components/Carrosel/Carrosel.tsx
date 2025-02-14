@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import './Carrosel.css';
+import './Carrosel.scss';
 
 const images = [
   '../../assets/Icons/html5-brands-solid.svg',
