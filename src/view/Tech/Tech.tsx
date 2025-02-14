@@ -14,17 +14,17 @@ const Technologies: React.FC = () => {
     {
       name: "CSS",
       description:
-        "CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de documentos HTML.",
+        "CSS (Cascading Style Sheets) é usada para descrever a apresentação do HTML.",
     },
     {
       name: "JavaScript",
       description:
-        "JavaScript é uma linguagem de programação que permite a criação de interatividade em páginas da web.",
+        "JavaScript é uma linguagem que permite a criação de interatividade em páginas da web.",
     },
     {
       name: "React",
       description:
-        "React é uma biblioteca JavaScript para construir interfaces de usuário.",
+        "React é uma biblioteca de JavaScript para construir interfaces de usuário.",
     },
     {
       name: "Bootstrap",
@@ -44,7 +44,7 @@ const Technologies: React.FC = () => {
     {
       name: "Tailwind CSS",
       description:
-        "Tailwind CSS é um framework CSS utilitário que permite a construção de interfaces personalizadas rapidamente.",
+        "Tailwind CSS é um framework CSS  que permite a construção de interfaces personalizadas.",
     },
     {
       name: "Styled Components",
