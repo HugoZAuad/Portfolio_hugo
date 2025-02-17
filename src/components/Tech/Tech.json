@@ -1,0 +1,32 @@
+[
+  {
+    "name": "HTML",
+    "description": "HTML (HyperText Markup Language) é a linguagem padrão para criar páginas da web.",
+    "icon": "html5"
+  },
+  {
+    "name": "CSS",
+    "description": "CSS (Cascading Style Sheets) é usada para descrever a apresentação do HTML.",
+    "icon": "css3"
+  },
+  {
+    "name": "JavaScript",
+    "description": "JavaScript é uma linguagem que permite a criação de interatividade em páginas da web.",
+    "icon": "js"
+  },
+  {
+    "name": "React",
+    "description": "React é uma biblioteca de JavaScript para construir interfaces de usuário.",
+    "icon": "react"
+  },
+  {
+    "name": "Bootstrap",
+    "description": "Bootstrap é um framework front-end que facilita o desenvolvimento de sites responsivos.",
+    "icon": "bootstrap"
+  },
+  {
+    "name": "Node.js",
+    "description": "Node.js é um ambiente de execução JavaScript do lado do servidor.",
+    "icon": "node"
+  }
+]

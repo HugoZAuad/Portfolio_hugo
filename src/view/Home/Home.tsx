@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import "./Home.scss";
-import Foto from "../../../public/assets/Imgs/perfil.png";
+import Tech from "../../components/Tech/Tech"
 
 const Home: React.FC = () => {
   const [showText, setShowText] = useState(false);
@@ -29,7 +29,6 @@ const Home: React.FC = () => {
     <>
       <main className="home-main">
         <IntroSection showText={showText} />
-        <ProfileImage />
       </main>
     </>
   );
@@ -79,17 +78,8 @@ const ProfessionalJourney: React.FC = () => (
       buscando oportunidades que me permitam crescer e contribuir em um
       setor em constante evolução.
     </p>
+    <Tech />
   </>
 );
-
-const ProfileImage: React.FC = () => (
-  <img
-    src={Foto}
-    alt="Foto de perfil"
-    className="foto-perfil"
-  />
-);
-
-
 
 export default Home;
