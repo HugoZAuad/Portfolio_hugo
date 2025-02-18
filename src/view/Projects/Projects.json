@@ -3,80 +3,88 @@
     "id": 1,
     "title": "Contador Regressivo",
     "description": "Este projeto é uma aplicação web simples que exibe uma contagem regressiva até uma data específica.",
-    "image": "/public/assets/Imgs/P5.png",
+    "image": "/assets/Imgs/P5.png",
     "link": "https://github.com/HugoZAuad/Desafio-Contdown",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://desafio-contdown.vercel.app"
   },
   {
     "id": 2,
     "title": "Controle de Produtos",
     "description": "Este projeto é um gerenciador de produtos simples, desenvolvido em HTML, CSS e JavaScript. O objetivo é permitir que os usuários adicionem, visualizem e removam produtos de uma lista.",
-    "image": "/public/assets/Imgs/P4.png",
+    "image": "/assets/Imgs/P4.png",
     "link": "https://github.com/HugoZAuad/Controle_produtos",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://controle-produtos-phi.vercel.app"
   },
   {
     "id": 3,
     "title": "JS da Lâmpada",
     "description": "Este projeto é uma simples aplicação web que simula o funcionamento de uma lâmpada. A lâmpada pode ser ligada, desligada e quebrada através de botões e cliques na imagem.",
-    "image": "/public/assets/Imgs/P6.png",
+    "image": "/assets/Imgs/P6.png",
     "link": "https://github.com/HugoZAuad/Desafio-Lampada",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://desafio-lampada.vercel.app"
   },
   {
     "id": 4,
     "title": "Pesquisador de Países",
     "description": "Este projeto é um aplicativo simples que permite aos usuários pesquisar informações sobre países usando a API REST Countries.",
-    "image": "/public/assets/Imgs/P3.png",
+    "image": "/assets/Imgs/P3.png",
     "link": "https://github.com/HugoZAuad/Pesquisador_Paises",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://pesquisador-paises.vercel.app"
   },
   {
     "id": 5,
     "title": "LandPage DNC",
     "description": "Este projeto é uma página da web para promover um curso gratuito de Introdução à Tecnologia da DNC School",
-    "image": "/public/assets/Imgs/P8.png",
+    "image": "/assets/Imgs/P8.png",
     "link": "https://github.com/HugoZAuad/Landpage_DNC",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://landpage-dnc.vercel.app"
   },
   {
     "id": 6,
     "title": "InstaBytes",
     "description": "Este projeto é uma simples de um clone do Instagram, um CRUD, no qual foi feito um trabalho de utilização do back-END junto do front-END.",
-    "image": "/public/assets/Imgs/P7.png",
+    "image": "/assets/Imgs/P7.png",
     "link": "https://github.com/HugoZAuad/Projeto-Backend-Imers-o",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://projeto-backend-imers-o.vercel.app"
   },
   {
     "id": 7,
     "title": "JS Game",
     "description": "Jogo para descobrir o numero aleatorio.",
-    "image": "/public/assets/Imgs/P1.png",
+    "image": "/assets/Imgs/P1.png",
     "link": "https://github.com/HugoZAuad/JSGAME",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://jsgame-seven.vercel.app"
   },
   {
     "id": 8,
     "title": "FAQ - Front-END Mentor",
     "description": "Este é um projeto de FAQ desenvolvido como um desafio do Frontend Mentor.",
-    "image": "/public/assets/Imgs/P2.png",
+    "image": "/assets/Imgs/P2.png",
     "link": "https://github.com/HugoZAuad/Projeto_FAQ",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://projeto-faq-iota.vercel.app"
   },
   {
     "id": 9,
     "title": "Clone Yu-gi-oh",
     "description": "Este projeto é um clone simples do jogo Yu-Gi-Oh!, onde você pode visualizar cartas de personagens com suas respectivas informações e atributos.",
-    "image": "/public/assets/Imgs/P10.png",
+    "image": "/assets/Imgs/P10.png",
     "link": "https://github.com/HugoZAuad/clone-yugioh-devemdobro-",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://clone-yugioh-devemdobro.vercel.app"
   },
   {
     "id": 10,
     "title": "Spotify Imersão",
     "description": "Este projeto é uma interface de usuário para um aplicativo de música inspirado no Spotify. Ele permite que os usuários pesquisem artistas e visualizem playlists.",
-    "image": "/public/assets/Imgs/P9.png",
+    "image": "/assets/Imgs/P9.png",
     "link": "https://github.com/HugoZAuad/Imersao_FrontEND_Alura",
-    "siteLink": "https://your-live-site-url.com"
+    "siteLink": "https://spotify-imersao.netlify.app"
+  },
+  {
+    "id": 11,
+    "title": "Autenticação Google",
+    "description": "Este projeto demonstra como implementar a autenticação usando a conta Google em uma aplicação web, utilizando o Firebase como backend.",
+    "image": "/assets/Imgs/P11.png",
+    "link": "https://github.com/HugoZAuad/Autentica-o_google-firebase",
+    "siteLink": "https://autentica-o-google-firebase.vercel.app"
   }
 ]
