@@ -1,4 +1,4 @@
-@import '../../Global.scss';
+@use '../../Global.scss' as *;
 
 .contact-card {
   padding: 20px 0 50px 0;

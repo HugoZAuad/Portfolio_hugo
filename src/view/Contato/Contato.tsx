@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Contato.scss";
-import qrcode from '../../../public/assets/Imgs/QR_code.png';
+import qrcode from '../../assets/Imgs/QR_code.png';
 
-interface ContactCardProps {
+interface ContactCardProps {s
   name: string;
   email: string;
   message: string;
