@@ -37,7 +37,7 @@ const Card: React.FC<{ item: ProjectItem }> = ({ item }) => {
 
 const CardFlip: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const cardsToShow = 2; // Número de cards a serem exibidos
+  const cardsToShow = 1; // Número de cards a serem exibidos
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + cardsToShow) % data.length);
