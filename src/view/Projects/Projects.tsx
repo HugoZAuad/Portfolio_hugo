@@ -37,17 +37,17 @@ const Card: React.FC<{ item: ProjectItem }> = ({ item }) => {
 
 const CardFlip: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const cardsToShow = 1;
+  const cardsToShow = 2; // Número de cards a serem exibidos
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
+    setCurrentIndex((prevIndex) => (prevIndex + cardsToShow) % data.length);
   };
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + data.length) % data.length);
+    setCurrentIndex((prevIndex) => (prevIndex - cardsToShow + data.length) % data.length);
   };
 
-  const currentProject = data[currentIndex];
+  const currentProjects = data.slice(currentIndex, currentIndex + cardsToShow);
 
   return (
     <div className="projects-section">
@@ -55,7 +55,9 @@ const CardFlip: React.FC = () => {
       <h4>Use as setas para navegar</h4>
       <div className="card-container">
         <button className="arrow left" onClick={handlePrev}>&lt;</button>
-        <Card key={currentProject.id} item={currentProject} />
+        {currentProjects.map((project) => (
+          <Card key={project.id} item={project} />
+        ))}
         <button className="arrow right" onClick={handleNext}>&gt;</button>
       </div>
     </div>

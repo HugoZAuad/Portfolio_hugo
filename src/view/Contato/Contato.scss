@@ -1,18 +1,37 @@
 @use '../../Global.scss' as *;
 
+
+.contact-box {
+  padding: 20px;
+  border: 1px solid var(--color-light-blue-3);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  }
+}
+
 .contact-card {
   padding: 20px 0 50px 0;
   max-width: 800px;
-  margin: 20px auto;
+  margin: auto;
   color: var(--color-foreground);
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(25, 47, 88, 0.5);
+  padding: 15px;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
 
   h2 {
     text-align: center;
     margin-bottom: 40px;
-    color: var(--color-light-blue-4);
+    color: var(--color-foreground);
   }
 
   .content-container {
