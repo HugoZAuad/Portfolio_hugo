@@ -1,6 +1,6 @@
 import React from "react";
 import "./Servics.scss";
-import servicosData from "./servics.json";
+import servicosData from "./services.json";
 
 interface Servico {
   id: number;
