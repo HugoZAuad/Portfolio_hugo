@@ -1,6 +1,6 @@
 # Portfolio Hugo
 
-Este repositório contém um portfólio pessoal desenvolvido utilizando **React** e **Vite**. O objetivo deste projeto é apresentar habilidades e projetos de forma interativa e responsiva. (ainda em desenvolvimento)
+Este repositório contém um portfólio pessoal desenvolvido utilizando **React** e **Vite**. O objetivo deste projeto é apresentar habilidades e projetos de forma interativa e responsiva.
 
 ---
 
